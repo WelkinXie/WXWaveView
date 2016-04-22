@@ -1,7 +1,12 @@
 # WXWaveView
 
 ### Add pretty and silk waves to your views! 
+
+#### The wave can be added to any type of view.
+
 ### [中文说明](https://github.com/WelkinXie/WXWaveView/blob/master/README-CN.md)
+
+e.g.
 
 ![()](http://7xneqd.com1.z0.glb.clouddn.com/wave.gif)
 

@@ -1,7 +1,12 @@
 # WXWaveView
 
-### 为你的视图添加丝滑的波纹。
+### 为你的视图添加丝滑的水波纹。
+
+#### 水波纹能添加到任何的View上。
+
 ### [English Doc](https://github.com/WelkinXie/WXWaveView/blob/master/README.md)
+
+例如：
 
 ![()](http://7xneqd.com1.z0.glb.clouddn.com/wave.gif)
 

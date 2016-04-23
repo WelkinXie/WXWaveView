@@ -5,6 +5,8 @@
 //  Created by WelkinXie on 16/4/21.
 //  Copyright © 2016年 Welkin. All rights reserved.
 //
+//  Github: https://github.com/WelkinXie/WXWaveView
+//
 
 #import "ViewController.h"
 #import "WXWaveView.h"

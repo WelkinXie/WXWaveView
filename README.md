@@ -12,15 +12,12 @@ e.g.
 
 ## How to use
 1. Download and copy the **WXWaveView** folder with the source code in it to your project.
-2. Initialize WXWaveView with method **initWithFrame:**
-
-		self.waveView = [[WXWaveView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(superView.frame) - 10, CGRectGetWidth(superView.frame), 10)];
+2. Initialize WXWaveView with method " **addToView:withFrame:** "
 		
-3. Add it to your view!
+		self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 10, CGRectGetWidth(headerView.frame), 10)];
+	
 
-	    [superView addSubview:self.waveView];
-
-4. Perform the method **wave** when you want it to animate.
+3. Perform the method **wave** when you want it to animate.
 
 		[self.waveView wave];
 

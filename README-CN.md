@@ -12,14 +12,10 @@
 
 ## 使用方法
 1. 下载并复制 **WXWaveView** 文件夹下的源码到你工程目录。
-2. 用 **initWithFrame:** 方法初始化。
-
-		self.waveView = [[WXWaveView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(superView.frame) - 10, CGRectGetWidth(superView.frame), 10)];
+2. 用 " **addToView:withFrame:** " 方法进行初始化：
 		
-3. 添加到视图中。
-
-	    [superView addSubview:self.waveView];
-
+		self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 10, CGRectGetWidth(headerView.frame), 10)];
+		
 4. 调用 **wave** 方法来开始波动。
 
 		[self.waveView wave];

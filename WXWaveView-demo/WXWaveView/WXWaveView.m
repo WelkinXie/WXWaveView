@@ -11,6 +11,7 @@
 
 @interface WXWaveView ()
 
+@property (weak, nonatomic) UIView *lowerView;
 @property (assign, nonatomic) CGFloat waveWidth;
 @property (assign, nonatomic) CGFloat waveHeight;
 @property (assign, nonatomic) CGFloat offsetX;
@@ -20,6 +21,13 @@
 @end
 
 @implementation WXWaveView
+
++ (instancetype)addToView:(UIView *)view withFrame:(CGRect)frame {
+    WXWaveView *waveView = [[self alloc] initWithFrame:frame];
+    waveView.lowerView = view;
+    [view addSubview:waveView];
+    return waveView;
+}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -97,6 +105,13 @@
         self.alpha = 1.f;
     }];
     
+}
+
+- (void)layoutSubviews {
+    if (!self.lowerView) {
+        return;
+    }
+    self.waveWidth = CGRectGetWidth(self.lowerView.frame);
 }
 
 @end

@@ -16,6 +16,8 @@
 @property (assign, nonatomic) NSTimeInterval waveTime;
 @property (strong, nonatomic) UIColor *waveColor;
 
++ (instancetype)addToView:(UIView *)view withFrame:(CGRect)frame;
+
 - (void)wave;
 - (void)stop;
 

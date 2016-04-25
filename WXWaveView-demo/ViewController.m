@@ -25,19 +25,17 @@
     
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 245)];
     headerView.backgroundColor = [UIColor colorWithRed:164/255.f green:174/255.f blue:246/255.f alpha:1];
-    
+    self.tableView.tableHeaderView = headerView;
+
     // Initialization
-    self.waveView = [[WXWaveView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 9, CGRectGetWidth(headerView.frame), 10)];
-    
-    [headerView addSubview:self.waveView];
-    
+    self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 9, CGRectGetWidth(headerView.frame), 10)];
+        
     // Optional Setting
 //    self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
 //    self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
 //    self.waveView.waveSpeed = 6.f;
 //    self.waveView.waveAmplitude = 6.f;
     
-    self.tableView.tableHeaderView = headerView;
 }
 
 - (void)didReceiveMemoryWarning {

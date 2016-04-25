@@ -220,7 +220,6 @@
 				TargetAttributes = {
 					E73C90D81CC8C65C00C327A6 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9W7934AJ9K;
 					};
 					E73C90F11CC8C65C00C327A6 = {
 						CreatedOnToolsVersion = 7.3;

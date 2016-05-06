@@ -44,7 +44,7 @@ e.g.
 
 		[self.waveView stop];
 	    
-## Also See
+## Take a glance
 [WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) is a cycle scroll kit with this wave view written in Swift.
 
 ## Reference

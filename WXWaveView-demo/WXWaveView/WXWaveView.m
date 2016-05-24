@@ -78,16 +78,16 @@
     self.offsetX += self.waveSpeed;
     
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, nil, 0, self.waveHeight);
+    CGPathMoveToPoint(path, NULL, 0, self.waveHeight);
     
     CGFloat y = 0.f;
     for (float x = 0.f; x <= self.waveWidth ; x++) {
         y = self.waveAmplitude * sin((360 / self.waveWidth) * (x * M_PI / 180) - self.offsetX * M_PI / 180) + self.waveHeight;
-        CGPathAddLineToPoint(path, nil, x, y);
+        CGPathAddLineToPoint(path, NULL, x, y);
     }
     
-    CGPathAddLineToPoint(path, nil, self.waveWidth, self.frame.size.height);
-    CGPathAddLineToPoint(path, nil, 0, self.frame.size.height);
+    CGPathAddLineToPoint(path, NULL, self.waveWidth, self.frame.size.height);
+    CGPathAddLineToPoint(path, NULL, 0, self.frame.size.height);
     CGPathCloseSubpath(path);
     
     self.waveShapeLayer.path = path;

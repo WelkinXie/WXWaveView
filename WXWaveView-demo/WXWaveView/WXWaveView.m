@@ -112,6 +112,7 @@
         return;
     }
     self.waveWidth = CGRectGetWidth(self.lowerView.frame);
+    self.waveHeight = CGRectGetHeight(self.frame) / 2;
 }
 
 @end

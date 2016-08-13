@@ -26,16 +26,20 @@
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 245)];
     headerView.backgroundColor = [UIColor colorWithRed:164/255.f green:174/255.f blue:246/255.f alpha:1];
     self.tableView.tableHeaderView = headerView;
-
-    // Initialization
-    self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 9, CGRectGetWidth(headerView.frame), 10)];
-        
-    // Optional Setting
-//    self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
-//    self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
-//    self.waveView.waveSpeed = 6.f;
-//    self.waveView.waveAmplitude = 6.f;
     
+}
+
+- (void)viewDidLayoutSubviews {
+    if (!self.waveView) {
+        
+        // Initialization
+        self.waveView = [WXWaveView addToView:self.tableView.tableHeaderView withFrame:CGRectMake(0, CGRectGetHeight(self.tableView.tableHeaderView.frame) - 4.5, CGRectGetWidth(self.tableView.frame), 5)];
+        
+        // Optional Setting
+        self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
+//        self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
+//        self.waveView.waveSpeed = 6.f;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,7 +49,12 @@
 
 #pragma mark - UIScrollView
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
-    [self.waveView wave];
+    if ([self.waveView wave]) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self.waveView stop];
+            [self.tableView reloadData];
+        });
+    }
 }
 
 #pragma mark - UITableView
@@ -59,7 +68,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class])];
-    cell.textLabel.text = [NSString stringWithFormat:@"%li", (long)indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%i", arc4random() % 100];
     return cell;
 }
 

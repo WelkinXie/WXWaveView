@@ -12,13 +12,12 @@
 @interface WXWaveView : UIView
 
 @property (assign, nonatomic) CGFloat waveSpeed;
-@property (assign, nonatomic) CGFloat waveAmplitude;
 @property (assign, nonatomic) NSTimeInterval waveTime;
 @property (strong, nonatomic) UIColor *waveColor;
 
 + (instancetype)addToView:(UIView *)view withFrame:(CGRect)frame;
 
-- (void)wave;
+- (BOOL)wave;
 - (void)stop;
 
 @end

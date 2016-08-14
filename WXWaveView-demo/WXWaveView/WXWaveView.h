@@ -11,6 +11,7 @@
 
 @interface WXWaveView : UIView
 
+@property (assign, nonatomic) CGFloat angularSpeed;
 @property (assign, nonatomic) CGFloat waveSpeed;
 @property (assign, nonatomic) NSTimeInterval waveTime;
 @property (strong, nonatomic) UIColor *waveColor;

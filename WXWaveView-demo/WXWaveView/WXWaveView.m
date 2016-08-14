@@ -40,6 +40,7 @@
 }
 
 - (void)basicSetup {
+    _angularSpeed = 2.f;
     _waveSpeed = 3.f;
     _waveTime = 1.f;
     _waveColor = [UIColor whiteColor];
@@ -75,7 +76,7 @@
 
     CGFloat y = 0.f;
     for (CGFloat x = 0.f; x <= CGRectGetWidth(self.frame) ; x++) {
-        y = CGRectGetHeight(self.frame) * sin((10 / CGRectGetWidth(self.frame)) * x - self.offsetX * 0.045);
+        y = CGRectGetHeight(self.frame) * sin(0.01 * self.angularSpeed * x - self.offsetX * 0.045);
         CGPathAddLineToPoint(path, NULL, x, y);
     }
     

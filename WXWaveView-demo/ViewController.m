@@ -36,7 +36,7 @@
         self.waveView = [WXWaveView addToView:self.tableView.tableHeaderView withFrame:CGRectMake(0, CGRectGetHeight(self.tableView.tableHeaderView.frame) - 4.5, CGRectGetWidth(self.tableView.frame), 5)];
         
         // Optional Setting
-        self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
+//        self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
 //        self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
 //        self.waveView.waveSpeed = 6.f;
     }
@@ -50,10 +50,10 @@
 #pragma mark - UIScrollView
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     if ([self.waveView wave]) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self.waveView stop];
-            [self.tableView reloadData];
-        });
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//            [self.waveView stop];
+//            [self.tableView reloadData];
+//        });
     }
 }
 

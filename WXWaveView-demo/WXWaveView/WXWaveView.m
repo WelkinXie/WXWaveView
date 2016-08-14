@@ -41,7 +41,7 @@
 
 - (void)basicSetup {
     _angularSpeed = 2.f;
-    _waveSpeed = 3.f;
+    _waveSpeed = 2.f;
     _waveTime = 1.f;
     _waveColor = [UIColor whiteColor];
 }

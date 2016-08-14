@@ -33,13 +33,23 @@ e.g.
 	    
 	    self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
 	   	
-3. The speed of the wave. Default is 3.
+3. The speed of the wave. Default is 2.
 
 	    self.waveView.waveSpeed = 6.f;
 	    
-4. You can also stop the wave manually with the method **stop** whenever you want.
+4. The angular speed of the wave. Default is 2.
+
+		self.waveView.angularSpeed = 1.8f;
+	    
+5. You can also stop the wave manually with the method **stop** whenever you want.
 
 		[self.waveView stop];
+		
+#### Recently I find it amusing to make it a loading view ：
+
+![()](http://7xneqd.com1.z0.glb.clouddn.com/wave-new5.gif)
+
+#### Have fun~
 	    
 ## Take a glance
 [WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) is a cycle scroll kit with this wave view written in Swift.

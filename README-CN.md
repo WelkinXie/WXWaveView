@@ -31,23 +31,26 @@
 	    
 	    self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
 	   	
-3. 波纹运动的速率，默认是5。
+3. 波纹运动的速率，默认是2。
 
 	    self.waveView.waveSpeed = 6.f;
 	    
-4. 波纹运动的振幅，默认是5。
+4. 波纹运动的角速度. 默认是2.
 
-	    self.waveView.waveAmplitude = 6.f;
+		self.waveView.angularSpeed = 1.8f;
 	    
 5. 你也可以随时调用 **stop** 方法来手动停止波纹的运动。
 
 		[self.waveView stop];
+		
+#### 最近发现了一种有趣的使用方式，想分享一下：
+
+![()](http://7xneqd.com1.z0.glb.clouddn.com/wave-new5.gif)
+
+#### 作为刷新等待的视图，玩得开心哈~
 	    
 ## 留意一下
 [WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) 是使用本波纹实现的一个自动轮播视图，类似于百度外卖首页的轮播。使用Swift实现。
-
-## 参考
-**WXWaveView** 是被 [KYWaterWaveView](https://github.com/KittenYang/KYWaterWaveView) 所启发的。感谢 KittenYang 和他所作出的贡献。
 
 ## 许可
 **WXWaveView** 通过 [**MIT License**](https://github.com/WelkinXie/WXWaveView/blob/master/LICENSE) 许可协议发布。

@@ -37,8 +37,9 @@
         
         // Optional Setting
 //        self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
-//        self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
+//        self.waveView.waveColor = [UIColor yellowColor];
 //        self.waveView.waveSpeed = 6.f;
+//        self.waveView.angularSpeed = 1.8f;
     }
 }
 
@@ -50,7 +51,7 @@
 #pragma mark - UIScrollView
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     if ([self.waveView wave]) {
-//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //            [self.waveView stop];
 //            [self.tableView reloadData];
 //        });

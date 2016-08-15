@@ -47,7 +47,7 @@ e.g.
 		
 #### Recently I find it amusing to make it a loading view ：
 
-![()](http://7xneqd.com1.z0.glb.clouddn.com/wave-new5.gif)
+![](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/github/wave-new5.gif)
 
 #### Have fun~
 	    

@@ -45,7 +45,7 @@
 		
 #### 最近发现了一种有趣的使用方式，想分享一下：
 
-![()](http://7xneqd.com1.z0.glb.clouddn.com/wave-new5.gif)
+![](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/github/wave-new5.gif)
 
 #### 作为刷新等待的视图，玩得开心哈~
 	    

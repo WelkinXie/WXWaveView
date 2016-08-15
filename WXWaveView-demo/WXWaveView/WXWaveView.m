@@ -47,7 +47,6 @@
 }
 
 - (BOOL)wave {
-    
     if (self.waveShapeLayer.path) {
         return NO;
     }
@@ -68,24 +67,23 @@
 }
 
 - (void)getCurrentWave {
-    
-    self.offsetX += self.waveSpeed;
+    self.offsetX -= self.waveSpeed;
+    CGFloat width = CGRectGetWidth(self.frame);
+    CGFloat height = CGRectGetHeight(self.frame);
     
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, NULL, 0, CGRectGetHeight(self.frame) / 2);
+    CGPathMoveToPoint(path, NULL, 0, height / 2);
 
     CGFloat y = 0.f;
-    for (CGFloat x = 0.f; x <= CGRectGetWidth(self.frame) ; x++) {
-        y = CGRectGetHeight(self.frame) * sin(0.01 * self.angularSpeed * x - self.offsetX * 0.045);
+    for (CGFloat x = 0.f; x <= width ; x++) {
+        y = height * sin(0.01 * self.angularSpeed * x + self.offsetX * 0.045);
         CGPathAddLineToPoint(path, NULL, x, y);
     }
-    
-    CGPathAddLineToPoint(path, NULL, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame));
-    CGPathAddLineToPoint(path, NULL, 0, CGRectGetHeight(self.frame));
+    CGPathAddLineToPoint(path, NULL, width, height);
+    CGPathAddLineToPoint(path, NULL, 0, height);
     CGPathCloseSubpath(path);
     
     self.waveShapeLayer.path = path;
-    
     CGPathRelease(path);
 }
 

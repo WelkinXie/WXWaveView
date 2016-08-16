@@ -54,5 +54,9 @@ e.g.
 ## Take a glance
 [WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) is a cycle scroll kit with this wave view written in Swift.
 
+
+## Reference
+**WXWaveView** is inspired by [KYWaterWaveView](https://github.com/KittenYang/KYWaterWaveView). Thanks KittenYang and his contributions.
+
 ## License
 **WXWaveView** is released under [**MIT License**](https://github.com/WelkinXie/WXWaveView/blob/master/LICENSE).

@@ -52,5 +52,8 @@
 ## 留意一下
 [WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) 是使用本波纹实现的一个自动轮播视图，类似于百度外卖首页的轮播。使用Swift实现。
 
+## 参考
+**WXWaveView** 是被 [KYWaterWaveView](https://github.com/KittenYang/KYWaterWaveView) 所启发的。感谢 KittenYang 和他所作出的贡献。
+
 ## 许可
 **WXWaveView** 通过 [**MIT License**](https://github.com/WelkinXie/WXWaveView/blob/master/LICENSE) 许可协议发布。

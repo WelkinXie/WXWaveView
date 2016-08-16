@@ -55,7 +55,7 @@
     
     [self.layer addSublayer:self.waveShapeLayer];
     
-    self.waveDisplayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(getCurrentWave)];
+    self.waveDisplayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(currentWave)];
     [self.waveDisplayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
     
     if (self.waveTime > 0.f) {
@@ -66,7 +66,7 @@
     return YES;
 }
 
-- (void)getCurrentWave {
+- (void)currentWave {
     self.offsetX -= self.waveSpeed;
     CGFloat width = CGRectGetWidth(self.frame);
     CGFloat height = CGRectGetHeight(self.frame);

@@ -15,6 +15,8 @@
 2. 用 " **addToView:withFrame:** " 方法进行初始化：
 		
 		self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 10, CGRectGetWidth(headerView.frame), 10)];
+
+	当然，你也可以通过 __Auto Layout__ 来设置他的大小位置，然后传 CGRectZero 到上面的方法就好了。
 		
 4. 调用 **wave** 方法来开始波动。
 
@@ -22,7 +24,7 @@
 
 #### 搞定了
 
-### 当然，你也可以对波纹进行个性化定制。
+### 另外，你也可以对波纹进行个性化定制。
 1. 波纹持续的时间。当被设置为0时，波纹将不会自动停止。默认是1秒。
 
 	    self.waveView.waveTime = 0.f;  
@@ -31,9 +33,9 @@
 	    
 	    self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
 	   	
-3. 波纹运动的速率，默认是2。
+3. 波纹运动的速率，默认9。
 
-	    self.waveView.waveSpeed = 6.f;
+	    self.waveView.waveSpeed = 20.f;
 	    
 4. 波纹运动的角速度. 默认是2.
 

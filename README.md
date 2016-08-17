@@ -33,9 +33,9 @@ e.g.
 	    
 	    self.waveView.waveColor = [UIColor groupTableViewBackgroundColor];
 	   	
-3. The speed of the wave. Default is 2.
+3. The speed of the wave. Default is 9.
 
-	    self.waveView.waveSpeed = 6.f;
+	    self.waveView.waveSpeed = 20.f;
 	    
 4. The angular speed of the wave. Default is 2.
 

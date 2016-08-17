@@ -38,7 +38,7 @@
         // Optional Setting
 //        self.waveView.waveTime = 0.f;     // When 0, the wave will never stop;
 //        self.waveView.waveColor = [UIColor yellowColor];
-//        self.waveView.waveSpeed = 6.f;
+//        self.waveView.waveSpeed = 25.f;
 //        self.waveView.angularSpeed = 1.8f;
     }
 }

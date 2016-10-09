@@ -8,7 +8,7 @@
 
 例如：
 
-![()](http://7xneqd.com1.z0.glb.clouddn.com/wave.gif)
+![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave.gif)
 
 ## 使用方法
 1. 下载并复制 **WXWaveView** 文件夹下的源码到你工程目录。
@@ -47,12 +47,12 @@
 		
 #### 最近发现了一种有趣的使用方式，想分享一下：
 
-![](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/github/wave-new5.gif)
+![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave2.gif)
 
 #### 作为刷新等待的视图，玩得开心哈~
 	    
 ## 留意一下
-[WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) 是使用本波纹实现的一个自动轮播视图，类似于百度外卖首页的轮播。使用Swift实现。
+[CycleScrollView](https://github.com/WelkinXie/CycleScrollView) 是使用本波纹实现的一个自动轮播视图，类似于百度外卖首页的轮播。使用Swift实现。
 
 ## 参考
 **WXWaveView** 是被 [KYWaterWaveView](https://github.com/KittenYang/KYWaterWaveView) 所启发的。感谢 KittenYang 和他所作出的贡献。

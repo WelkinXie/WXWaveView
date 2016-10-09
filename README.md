@@ -8,7 +8,7 @@
 
 e.g.
 
-![()](http://7xneqd.com1.z0.glb.clouddn.com/wave.gif)
+![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave.gif)
 
 ## How to use
 1. Download and copy the **WXWaveView** folder with the source code in it to your project.
@@ -47,12 +47,12 @@ e.g.
 		
 #### Recently I find it amusing to make it a loading view ：
 
-![](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/github/wave-new5.gif)
+![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave2.gif)
 
 #### Have fun~
 	    
 ## Take a glance
-[WXCycleScrollView](https://github.com/WelkinXie/WXCycleScrollView) is a cycle scroll kit with this wave view written in Swift.
+[CycleScrollView](https://github.com/WelkinXie/CycleScrollView) is a cycle scroll kit with this wave view written in Swift.
 
 
 ## Reference

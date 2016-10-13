@@ -42,7 +42,7 @@
 - (void)basicSetup {
     _angularSpeed = 2.f;
     _waveSpeed = 9.f;
-    _waveTime = 1.f;
+    _waveTime = 1.5f;
     _waveColor = [UIColor whiteColor];
 }
 
@@ -67,7 +67,7 @@
 }
 
 - (void)currentWave {
-    self.offsetX -= self.waveSpeed;
+    self.offsetX -= (self.waveSpeed * self.superview.frame.size.width / 320);
     CGFloat width = CGRectGetWidth(self.frame);
     CGFloat height = CGRectGetHeight(self.frame);
     

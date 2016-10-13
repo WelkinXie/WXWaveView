@@ -13,27 +13,8 @@
 		E73C90E71CC8C65C00C327A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73C90E51CC8C65C00C327A6 /* Main.storyboard */; };
 		E73C90E91CC8C65C00C327A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73C90E81CC8C65C00C327A6 /* Assets.xcassets */; };
 		E73C90EC1CC8C65C00C327A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73C90EA1CC8C65C00C327A6 /* LaunchScreen.storyboard */; };
-		E73C90F71CC8C65C00C327A6 /* WXWaveView_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C90F61CC8C65C00C327A6 /* WXWaveView_demoTests.m */; };
-		E73C91021CC8C65C00C327A6 /* WXWaveView_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C91011CC8C65C00C327A6 /* WXWaveView_demoUITests.m */; };
 		E73C91121CC8C6B700C327A6 /* WXWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C91111CC8C6B700C327A6 /* WXWaveView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E73C90F31CC8C65C00C327A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E73C90D11CC8C65C00C327A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E73C90D81CC8C65C00C327A6;
-			remoteInfo = "WXWaveView-demo";
-		};
-		E73C90FE1CC8C65C00C327A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E73C90D11CC8C65C00C327A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E73C90D81CC8C65C00C327A6;
-			remoteInfo = "WXWaveView-demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E73C90D91CC8C65C00C327A6 /* WXWaveView-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WXWaveView-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,32 +27,12 @@
 		E73C90E81CC8C65C00C327A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E73C90EB1CC8C65C00C327A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E73C90ED1CC8C65C00C327A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E73C90F21CC8C65C00C327A6 /* WXWaveView-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WXWaveView-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E73C90F61CC8C65C00C327A6 /* WXWaveView_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWaveView_demoTests.m; sourceTree = "<group>"; };
-		E73C90F81CC8C65C00C327A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E73C90FD1CC8C65C00C327A6 /* WXWaveView-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WXWaveView-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E73C91011CC8C65C00C327A6 /* WXWaveView_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWaveView_demoUITests.m; sourceTree = "<group>"; };
-		E73C91031CC8C65C00C327A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73C91101CC8C6B700C327A6 /* WXWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWaveView.h; sourceTree = "<group>"; };
 		E73C91111CC8C6B700C327A6 /* WXWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E73C90D61CC8C65C00C327A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E73C90EF1CC8C65C00C327A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E73C90FA1CC8C65C00C327A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				E73C90DB1CC8C65C00C327A6 /* WXWaveView-demo */,
-				E73C90F51CC8C65C00C327A6 /* WXWaveView-demoTests */,
-				E73C91001CC8C65C00C327A6 /* WXWaveView-demoUITests */,
 				E73C90DA1CC8C65C00C327A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				E73C90D91CC8C65C00C327A6 /* WXWaveView-demo.app */,
-				E73C90F21CC8C65C00C327A6 /* WXWaveView-demoTests.xctest */,
-				E73C90FD1CC8C65C00C327A6 /* WXWaveView-demoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,24 +81,6 @@
 				E73C90DD1CC8C65C00C327A6 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E73C90F51CC8C65C00C327A6 /* WXWaveView-demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				E73C90F61CC8C65C00C327A6 /* WXWaveView_demoTests.m */,
-				E73C90F81CC8C65C00C327A6 /* Info.plist */,
-			);
-			path = "WXWaveView-demoTests";
-			sourceTree = "<group>";
-		};
-		E73C91001CC8C65C00C327A6 /* WXWaveView-demoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E73C91011CC8C65C00C327A6 /* WXWaveView_demoUITests.m */,
-				E73C91031CC8C65C00C327A6 /* Info.plist */,
-			);
-			path = "WXWaveView-demoUITests";
 			sourceTree = "<group>";
 		};
 		E73C910F1CC8C6B700C327A6 /* WXWaveView */ = {
@@ -173,42 +112,6 @@
 			productReference = E73C90D91CC8C65C00C327A6 /* WXWaveView-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E73C90F11CC8C65C00C327A6 /* WXWaveView-demoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E73C91091CC8C65C00C327A6 /* Build configuration list for PBXNativeTarget "WXWaveView-demoTests" */;
-			buildPhases = (
-				E73C90EE1CC8C65C00C327A6 /* Sources */,
-				E73C90EF1CC8C65C00C327A6 /* Frameworks */,
-				E73C90F01CC8C65C00C327A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E73C90F41CC8C65C00C327A6 /* PBXTargetDependency */,
-			);
-			name = "WXWaveView-demoTests";
-			productName = "WXWaveView-demoTests";
-			productReference = E73C90F21CC8C65C00C327A6 /* WXWaveView-demoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E73C90FC1CC8C65C00C327A6 /* WXWaveView-demoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E73C910C1CC8C65C00C327A6 /* Build configuration list for PBXNativeTarget "WXWaveView-demoUITests" */;
-			buildPhases = (
-				E73C90F91CC8C65C00C327A6 /* Sources */,
-				E73C90FA1CC8C65C00C327A6 /* Frameworks */,
-				E73C90FB1CC8C65C00C327A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E73C90FF1CC8C65C00C327A6 /* PBXTargetDependency */,
-			);
-			name = "WXWaveView-demoUITests";
-			productName = "WXWaveView-demoUITests";
-			productReference = E73C90FD1CC8C65C00C327A6 /* WXWaveView-demoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,16 +123,7 @@
 				TargetAttributes = {
 					E73C90D81CC8C65C00C327A6 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					E73C90F11CC8C65C00C327A6 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9W7934AJ9K;
-						TestTargetID = E73C90D81CC8C65C00C327A6;
-					};
-					E73C90FC1CC8C65C00C327A6 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9W7934AJ9K;
-						TestTargetID = E73C90D81CC8C65C00C327A6;
+						DevelopmentTeam = 8GMP7VS667;
 					};
 				};
 			};
@@ -247,8 +141,6 @@
 			projectRoot = "";
 			targets = (
 				E73C90D81CC8C65C00C327A6 /* WXWaveView-demo */,
-				E73C90F11CC8C65C00C327A6 /* WXWaveView-demoTests */,
-				E73C90FC1CC8C65C00C327A6 /* WXWaveView-demoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,20 +153,6 @@
 				E73C90EC1CC8C65C00C327A6 /* LaunchScreen.storyboard in Resources */,
 				E73C90E91CC8C65C00C327A6 /* Assets.xcassets in Resources */,
 				E73C90E71CC8C65C00C327A6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E73C90F01CC8C65C00C327A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E73C90FB1CC8C65C00C327A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,36 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E73C90EE1CC8C65C00C327A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E73C90F71CC8C65C00C327A6 /* WXWaveView_demoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E73C90F91CC8C65C00C327A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E73C91021CC8C65C00C327A6 /* WXWaveView_demoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E73C90F41CC8C65C00C327A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E73C90D81CC8C65C00C327A6 /* WXWaveView-demo */;
-			targetProxy = E73C90F31CC8C65C00C327A6 /* PBXContainerItemProxy */;
-		};
-		E73C90FF1CC8C65C00C327A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E73C90D81CC8C65C00C327A6 /* WXWaveView-demo */;
-			targetProxy = E73C90FE1CC8C65C00C327A6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E73C90E51CC8C65C00C327A6 /* Main.storyboard */ = {
@@ -431,10 +280,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8GMP7VS667;
 				INFOPLIST_FILE = "WXWaveView-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "win.welkin.WXWaveView-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welkinx.wxwaveview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -446,58 +296,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8GMP7VS667;
 				INFOPLIST_FILE = "WXWaveView-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "win.welkin.WXWaveView-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welkinx.wxwaveview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-			};
-			name = Release;
-		};
-		E73C910A1CC8C65C00C327A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "WXWaveView-demoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "win.welkin.WXWaveView-demoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXWaveView-demo.app/WXWaveView-demo";
-			};
-			name = Debug;
-		};
-		E73C910B1CC8C65C00C327A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "WXWaveView-demoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "win.welkin.WXWaveView-demoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXWaveView-demo.app/WXWaveView-demo";
-			};
-			name = Release;
-		};
-		E73C910D1CC8C65C00C327A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "WXWaveView-demoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "win.welkin.WXWaveView-demoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "WXWaveView-demo";
-			};
-			name = Debug;
-		};
-		E73C910E1CC8C65C00C327A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "WXWaveView-demoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "win.welkin.WXWaveView-demoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "WXWaveView-demo";
 			};
 			name = Release;
 		};
@@ -518,24 +323,6 @@
 			buildConfigurations = (
 				E73C91071CC8C65C00C327A6 /* Debug */,
 				E73C91081CC8C65C00C327A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E73C91091CC8C65C00C327A6 /* Build configuration list for PBXNativeTarget "WXWaveView-demoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E73C910A1CC8C65C00C327A6 /* Debug */,
-				E73C910B1CC8C65C00C327A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E73C910C1CC8C65C00C327A6 /* Build configuration list for PBXNativeTarget "WXWaveView-demoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E73C910D1CC8C65C00C327A6 /* Debug */,
-				E73C910E1CC8C65C00C327A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

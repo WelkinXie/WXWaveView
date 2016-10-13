@@ -25,7 +25,7 @@ e.g.
 #### That's it!
 
 ### BTW, there are something your can do to customize the wave.
-1. The time when the wave lasts. When it is set to zero, the wave will never stop. Default is 1.
+1. The time when the wave lasts. When it is set to zero, the wave will never stop. Default is 1.5.
 
 	    self.waveView.waveTime = 0.f;  
 	    

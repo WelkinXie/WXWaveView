@@ -10,6 +10,7 @@
 
 #import "ViewController.h"
 #import "WXWaveView.h"
+//@import WXWaveView;
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 

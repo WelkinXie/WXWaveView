@@ -1,6 +1,11 @@
 # WXWaveView
 
-### Add pretty and silk waves to your views! 
+![](https://img.shields.io/badge/pod-1.0.0-brightgreen.svg)
+![](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
+![](https://img.shields.io/badge/license-MIT-blue.svg)
+![](https://img.shields.io/badge/Star-200%2B-orange.svg)
+
+### Add pretty and smooth waves to your views! 
 
 #### The wave can be added to any type of view.
 

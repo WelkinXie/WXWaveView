@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/WelkinXie/WXWaveView"
   s.license      = 'MIT'
   s.author       = { "Welkin Xie" => "welkin995@126.com" }
-  s.platform     = :ios, "7.0"
-  s.ios.deployment_target = "7.0"
+  s.platform     = :ios, "8.0"
+  s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/WelkinXie/WXWaveView.git", :tag => s.version}
   s.source_files  = 'WXWaveView-demo/WXWaveView/*.{h,m}'
   s.requires_arc = true

@@ -1,5 +1,11 @@
 # WXWaveView
 
+[![](https://img.shields.io/badge/platform-iOS-lightgrey.svg)](https://developer.apple.com/ios/)
+[![](https://img.shields.io/badge/pod-1.0.0-brightgreen.svg)](https://github.com/CocoaPods/CocoaPods)
+[![](https://img.shields.io/badge/carthage-compatible-red.svg)](https://github.com/Carthage/Carthage)
+[![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WelkinXie/WXWaveView/blob/master/README.md)
+[![](https://img.shields.io/badge/Star-200%2B-orange.svg)](https://github.com/WelkinXie/WXWaveView)
+
 ### 为你的视图添加丝滑的水波纹。
 
 #### 水波纹能添加到任何的View上。

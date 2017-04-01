@@ -12,6 +12,8 @@
 		25EEB1C91DE14F2C00FFED72 /* WXWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C91111CC8C6B700C327A6 /* WXWaveView.m */; };
 		25EEB1F21DE1535200FFED72 /* WXWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = E73C91101CC8C6B700C327A6 /* WXWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25EEB1F41DE1566100FFED72 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EEB1F31DE1566100FFED72 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31C87DF1E8F6713009F05C8 /* WXWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E339DCFA1E8F53E7000E52CA /* WXWeakObject.m */; };
+		E339DCFB1E8F53E7000E52CA /* WXWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E339DCFA1E8F53E7000E52CA /* WXWeakObject.m */; };
 		E73C90DE1CC8C65C00C327A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C90DD1CC8C65C00C327A6 /* main.m */; };
 		E73C90E11CC8C65C00C327A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C90E01CC8C65C00C327A6 /* AppDelegate.m */; };
 		E73C90E41CC8C65C00C327A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C90E31CC8C65C00C327A6 /* ViewController.m */; };
@@ -49,6 +51,8 @@
 		25EEB1BC1DE14EFE00FFED72 /* WXWaveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXWaveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EEB1BF1DE14EFE00FFED72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25EEB1F31DE1566100FFED72 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E339DCF91E8F53E7000E52CA /* WXWeakObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWeakObject.h; sourceTree = "<group>"; };
+		E339DCFA1E8F53E7000E52CA /* WXWeakObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWeakObject.m; sourceTree = "<group>"; };
 		E73C90D91CC8C65C00C327A6 /* WXWaveView-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WXWaveView-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73C90DD1CC8C65C00C327A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E73C90DF1CC8C65C00C327A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 			children = (
 				E73C91101CC8C6B700C327A6 /* WXWaveView.h */,
 				E73C91111CC8C6B700C327A6 /* WXWaveView.m */,
+				E339DCF91E8F53E7000E52CA /* WXWeakObject.h */,
+				E339DCFA1E8F53E7000E52CA /* WXWeakObject.m */,
 			);
 			path = WXWaveView;
 			sourceTree = "<group>";
@@ -201,7 +207,7 @@
 		E73C90D11CC8C65C00C327A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Welkin;
 				TargetAttributes = {
 					25EEB1BB1DE14EFE00FFED72 = {
@@ -259,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31C87DF1E8F6713009F05C8 /* WXWeakObject.m in Sources */,
 				25EEB1C91DE14F2C00FFED72 /* WXWaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E339DCFB1E8F53E7000E52CA /* WXWeakObject.m in Sources */,
 				E73C91121CC8C6B700C327A6 /* WXWaveView.m in Sources */,
 				E73C90E41CC8C65C00C327A6 /* ViewController.m in Sources */,
 				E73C90E11CC8C65C00C327A6 /* AppDelegate.m in Sources */,
@@ -311,7 +319,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8GMP7VS667;
@@ -339,7 +347,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8GMP7VS667;
@@ -374,8 +382,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -397,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,8 +428,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -435,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

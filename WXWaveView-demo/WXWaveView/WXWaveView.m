@@ -8,6 +8,7 @@
 //
 
 #import "WXWaveView.h"
+#import "WXWeakObject.h"
 
 @interface WXWaveView ()
 
@@ -18,6 +19,11 @@
 @end
 
 @implementation WXWaveView
+
+- (void)dealloc {
+    [self.waveDisplayLink invalidate];
+    self.waveDisplayLink = nil;
+}
 
 + (instancetype)addToView:(UIView *)view withFrame:(CGRect)frame {
     WXWaveView *waveView = [[self alloc] initWithFrame:frame];
@@ -55,7 +61,7 @@
     
     [self.layer addSublayer:self.waveShapeLayer];
     
-    self.waveDisplayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(currentWave)];
+    self.waveDisplayLink = [CADisplayLink displayLinkWithTarget:[WXWeakObject weakObjectWithRealTarget:self] selector:@selector(currentWave)];
     [self.waveDisplayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
     
     if (self.waveTime > 0.f) {

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25EEB1BB1DE14EFE00FFED72"
-               BuildableName = "WXWaveView.framework"
-               BlueprintName = "WXWaveView"
+               BlueprintIdentifier = "E73C90D81CC8C65C00C327A6"
+               BuildableName = "WXWaveView-demo.app"
+               BlueprintName = "WXWaveView-demo"
                ReferencedContainer = "container:WXWaveView-demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E73C90D81CC8C65C00C327A6"
+            BuildableName = "WXWaveView-demo.app"
+            BlueprintName = "WXWaveView-demo"
+            ReferencedContainer = "container:WXWaveView-demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25EEB1BB1DE14EFE00FFED72"
-            BuildableName = "WXWaveView.framework"
-            BlueprintName = "WXWaveView"
+            BlueprintIdentifier = "E73C90D81CC8C65C00C327A6"
+            BuildableName = "WXWaveView-demo.app"
+            BlueprintName = "WXWaveView-demo"
             ReferencedContainer = "container:WXWaveView-demo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25EEB1BB1DE14EFE00FFED72"
-            BuildableName = "WXWaveView.framework"
-            BlueprintName = "WXWaveView"
+            BlueprintIdentifier = "E73C90D81CC8C65C00C327A6"
+            BuildableName = "WXWaveView-demo.app"
+            BlueprintName = "WXWaveView-demo"
             ReferencedContainer = "container:WXWaveView-demo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

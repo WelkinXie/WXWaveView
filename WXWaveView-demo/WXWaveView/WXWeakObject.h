@@ -5,6 +5,8 @@
 //  Created by cp on 2017/4/1.
 //  Copyright © 2017年 Welkin. All rights reserved.
 //
+//  Github: https://github.com/WelkinXie/WXWaveView
+//
 
 #import <Foundation/Foundation.h>
 

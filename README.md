@@ -15,21 +15,23 @@ e.g.
 
 ![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave.gif)
 
+## Attention
+__There is something wrong with the integration of v1.0.1 by Cocoapods. Just try Carthage or download the source files directly instead temporarily. I am trying to fix it.__ 
+
 ## How to use
-1. Download and copy the **WXWaveView** folder with the source code in it to your project.
-2. Initialize WXWaveView with method " **addToView:withFrame:** "
+1. Initialize WXWaveView with method " **addToView:withFrame:** "
 	
 		self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 10, CGRectGetWidth(headerView.frame), 10)];
 	
 	Of course, you can just give CGRectZero to the method above and use __Auto Layout__ to define its frame.
 
-3. Perform the method **wave** when you want it to animate.
+2. Perform the method **wave** when you want it to animate.
 
 		[self.waveView wave];
 
-#### That's it!
+That's it!
 
-### BTW, there are something your can do to customize the wave.
+### Customization
 1. The time when the wave lasts. When it is set to zero, the wave will never stop. Default is 1.5.
 
 	    self.waveView.waveTime = 0.f;  
@@ -54,7 +56,7 @@ e.g.
 
 ![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave2.gif)
 
-#### Have fun~
+What will it be depends on your creativity! Have fun :]
 	    
 ## Reference
 **WXWaveView** is inspired by [KYWaterWaveView](https://github.com/KittenYang/KYWaterWaveView). Thanks KittenYang and his contributions.

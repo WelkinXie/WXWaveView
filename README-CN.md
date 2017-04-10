@@ -15,21 +15,23 @@
 
 ![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave.gif)
 
+## 注意
+__通过 CocoaPods 来集成 v1.0.1 暂时有点问题，请先通过 Carthage 或者直接下载源码的方式来集成。我正努力解决 pod 的问题。__ 
+
 ## 使用方法
-1. 下载并复制 **WXWaveView** 文件夹下的源码到你工程目录。
-2. 用 " **addToView:withFrame:** " 方法进行初始化：
+1. 用 " **addToView:withFrame:** " 方法进行初始化：
 		
 		self.waveView = [WXWaveView addToView:headerView withFrame:CGRectMake(0, CGRectGetHeight(headerView.frame) - 10, CGRectGetWidth(headerView.frame), 10)];
 
 	当然，你也可以通过 __Auto Layout__ 来设置他的大小位置，然后传 CGRectZero 到上面的方法就好了。
 		
-4. 调用 **wave** 方法来开始波动。
+2. 调用 **wave** 方法来开始波动。
 
 		[self.waveView wave];
 
-#### 搞定了
+就这样。
 
-### 另外，你也可以对波纹进行个性化定制。
+### 个性化定制
 1. 波纹持续的时间。当被设置为0时，波纹将不会自动停止。默认是1.5秒。
 
 	    self.waveView.waveTime = 0.f;  
@@ -54,7 +56,7 @@
 
 ![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave2.gif)
 
-#### 作为刷新等待的视图，玩得开心哈~
+具体要怎样去使用就看大家的小宇宙咯 :]
 	    
 ## 参考
 **WXWaveView** 是被 [KYWaterWaveView](https://github.com/KittenYang/KYWaterWaveView) 所启发的。感谢 KittenYang 和他所作出的贡献。

@@ -9,14 +9,24 @@
 
 #### 水波纹能添加到任何的View上。
 
-### [English Doc](https://github.com/WelkinXie/WXWaveView/blob/master/README.md)
+#### [English Doc](https://github.com/WelkinXie/WXWaveView/blob/master/README.md)
 
 例如：
 
 ![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave.gif)
 
-## 注意
-__通过 CocoaPods 来集成 v1.0.1 暂时有点问题，请先通过 Carthage 或者直接下载源码的方式来集成。我正努力解决 pod 的问题。__ 
+## 集成方式
+Cocoapods:
+
+```
+pod 'WXWaveView'
+```
+
+或者 Carthage:
+
+```
+github "WelkinXie/WXWaveView"
+```
 
 ## 使用方法
 1. 用 " **addToView:withFrame:** " 方法进行初始化：
@@ -31,7 +41,7 @@ __通过 CocoaPods 来集成 v1.0.1 暂时有点问题，请先通过 Carthage �
 
 就这样。
 
-### 个性化定制
+## 个性化定制
 1. 波纹持续的时间。当被设置为0时，波纹将不会自动停止。默认是1.5秒。
 
 	    self.waveView.waveTime = 0.f;  

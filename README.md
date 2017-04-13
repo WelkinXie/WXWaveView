@@ -9,14 +9,24 @@
 
 #### The wave can be added to any type of view.
 
-### [中文说明](https://github.com/WelkinXie/WXWaveView/blob/master/README-CN.md)
+#### [中文说明](https://github.com/WelkinXie/WXWaveView/blob/master/README-CN.md)
 
 e.g.
 
 ![](https://raw.githubusercontent.com/WelkinXie/WXWaveView/master/wave.gif)
 
-## Attention
-__There is something wrong with the integration of v1.0.1 by Cocoapods. Just try Carthage or download the source files directly instead temporarily. I am trying to fix it.__ 
+## Integration
+Cocoapods:
+
+```
+pod 'WXWaveView'
+```
+
+Or Carthage:
+
+```
+github "WelkinXie/WXWaveView"
+```
 
 ## How to use
 1. Initialize WXWaveView with method " **addToView:withFrame:** "
@@ -31,7 +41,7 @@ __There is something wrong with the integration of v1.0.1 by Cocoapods. Just try
 
 That's it!
 
-### Customization
+## Customization
 1. The time when the wave lasts. When it is set to zero, the wave will never stop. Default is 1.5.
 
 	    self.waveView.waveTime = 0.f;  

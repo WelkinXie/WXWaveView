@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Add a pretty water wave to your view."
   s.homepage     = "https://github.com/WelkinXie/WXWaveView"
   s.license      = 'MIT'
-  s.author       = { "Welkin Xie" => "welkin995@126.com" }
+  s.author       = { "Welkin Xie" => "543465446@qq.com" }
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/WelkinXie/WXWaveView.git", :tag => s.version}

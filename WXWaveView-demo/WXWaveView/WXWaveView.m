@@ -52,6 +52,14 @@
     _waveColor = [UIColor whiteColor];
 }
 
+//MARK:
+//      if someone tries to updated wave color without `wave` method calling.
+//      For example, while someone using WXWaveView in a UICollectionViewCell, and they just want updating wave color for each cell
+- (void)setWaveColor:(UIColor *)waveColor {
+    _waveColor = waveColor;
+    self.waveShapeLayer.fillColor = self.waveColor.CGColor;
+}
+
 - (BOOL)wave {
     if (self.waveShapeLayer.path) {
         return NO;

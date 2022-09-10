@@ -1,7 +1,7 @@
 #WXWaveView.podspec
 Pod::Spec.new do |s|
   s.name         = "WXWaveView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Add a pretty water wave to your view."
   s.homepage     = "https://github.com/WelkinXie/WXWaveView"
   s.license      = 'MIT'
